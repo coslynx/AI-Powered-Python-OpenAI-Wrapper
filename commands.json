@@ -1,0 +1,7 @@
+{
+  "commands": [
+    "pip install -r requirements.txt",
+    "docker build -t ai-wrapper-service:latest .",
+    "docker run -d -p 8000:8000 ai-wrapper-service:latest"
+  ]
+}
