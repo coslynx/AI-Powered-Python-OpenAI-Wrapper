@@ -1,0 +1,21 @@
+# Ignore sensitive files
+.env
+
+# Ignore generated files
+dist
+coverage.xml
+htmlcov
+*.egg-info
+*.egg
+
+# Ignore compiled Python bytecode
+__pycache__
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv
+
+# Ignore database files
+*.sqlite
+*.db
